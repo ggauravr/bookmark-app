@@ -1,0 +1,4 @@
+/* SETUP: Add this to use Tailwind in your Svelte components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
