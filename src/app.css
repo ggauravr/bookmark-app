@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 /* SETUP: Add this to use Tailwind in your Svelte components */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root [data-theme='skeleton'] {
+    --theme-font-family-base: 'Fira Sans', sans-serif;
+    --theme-font-family-heading: 'Libre Baskerville', serif;
+    --theme-rounded-base: 0.2rem;
+}
+
+.btn-group button {
+    @apply btn variant-soft-primary;
+}
